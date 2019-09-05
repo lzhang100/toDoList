@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,500,600,700,900);
+
+body{
+	background: #1878ff;
+	/*padding: 20px;*/
+}
+
+header{
+	text-align: center;
+	color: #fff;
+	font-family: "Source Code Pro";
+	font-weight: 200; 
+}
+
+#todo-container {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: #fff;
+	border-radius: 10%;
+}
+
+img{
+	width: 350px;
+	height: 300px;
+	padding: 10px;
+	/*border-radius: 50%;*/
+}
+
+.custom-button{
+	border-radius: 10%;
+	display: inline-block;
+	margin: 10px;
+	border:none;
+	padding: 5px;
+}
+
+.custom-button:hover {
+    cursor: pointer;
+    opacity: 0.90;
+}
+
+#clear-completed-button{
+	background-color: #9B1C20;
+}
+
+#empty-button{
+	background-color: #228B22;
+}
+
+#save-button{
+	background-color: blue;
+}
+
+#add-button{
+	background: #7CFC00;
+}
+
+#form{
+	text-align: center;
+    align-items: center;
+	justify-content: center;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #666;
+}
+
+#todo-container ol li{
+	margin-right: 30px;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.5s ease-out;
+    
+}
+
+#todo-container ol li:nth-child(odd) {
+    background: #ddd;
+}
+
