@@ -1,0 +1,9 @@
+Interactive To-do List Web Application
+Add and organize all your daily tasks within one application built in HTML, CSS, Javascript
+Features includes clearing completed tasks, clearing all tasks, and saving all tasks 
+Built HTTP server in Python 3 to serve the application locally on port 8080 
+
+(optional) To Run the HTTP server: python3 server.py -> Go to localhost:8080 on browser
+
+Demostration of app
+![todolist](todolist.gif)
