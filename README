@@ -4,3 +4,5 @@ Features includes clearing completed tasks, clearing all tasks, and saving all t
 Built HTTP server in Python 3 to serve the application locally on port 8080 
 
 (optional) To Run the HTTP server: python3 server.py -> Go to localhost:8080 on browser
+Link to the demo:
+https://drive.google.com/file/d/19OlV7NUYghqw6YrD3VlWzH6JOwTAW1dg/view?usp=sharing
